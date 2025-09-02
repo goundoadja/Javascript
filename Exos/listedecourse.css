@@ -1,0 +1,10 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 1rem;
+}
+#list {
+    font-size: 1.2em;
+    color: maroon;
+    margin-top: 0.4rem;
+}
