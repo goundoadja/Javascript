@@ -5,3 +5,30 @@ const produits = [
     { product: "Jeans", price: 40, category: "Vêtements" },
     { product: "Pantalon", price: 50, category: "Vêtements" },
 ];
+console.log(produits);
+
+function leila(){
+    document.querySelector('#list').innerHTML = ''
+    for(const produit of produits){
+       document.querySelector('#list').innerHTML += `
+        <ul>
+            <li> ${produit.product} ${produit.price} ${produit.category}</li>
+
+        </ul>
+        `
+    };
+};
+
+function leila2(category) {
+    document.querySelector('#list').innerHTML = ''
+    for(const produit of produits){
+        if(produit.category == category){
+            document.querySelector('#list').innerHTML += `
+        <ul>
+            <li> ${produit.product} ${produit.price} ${produit.category}</li>
+
+        </ul>
+        `
+        };
+    };
+};
