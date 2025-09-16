@@ -1,0 +1,14 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.remove-button{
+    color: red;
+    padding-left: 1rem;
+}
+
+.conteneur{
+    border: 1px solid gray;
+    padding: 1rem;
+    margin: 0.5rem;
+}
